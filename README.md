@@ -20,6 +20,18 @@ cd pix2code_custom
 conda env create -f pix2code_env.yml
 ```
 
+### Short Description of Dataset:
+The purpose of the given dataset is to generate a code from the images. The given dataset D1 contains a total of 300 png images and their corresponding labels (gui format). 
+In the images there are always buttons on the top followed by boxes of various sizes with text and button of different colours in them. Every label contain header and the row details according to the image.
+
+### Model Description:
+
+The architecture is based on models used in image captioning. The model can be divided into three main parts.
+
+* Image Encoder: A CNN for encoding input images of the desired UI.
+* Context Encoder: A LSTM network for encoding context of previously generated code.
+* Decoder: A LSTM network that takes the output from both of the previous models and generate the next word in the code.
+
 ### Split Data to Train and Eval
 
 Split the Dataset to train and evaluation set. This command will split the data in two folders training set and eval set. By Default 85%-15%. 
