@@ -1,7 +1,7 @@
 # PIX2CODE for Custom Dataset
 ### Generate code from a GUI Image.
 
-## 1. Setup
+## Setup
 
 ### Prerequisites: 
 
@@ -32,7 +32,7 @@ The architecture is based on models used in image captioning. The model can be d
 * Context Encoder: A LSTM network for encoding context of previously generated code.
 * Decoder: A LSTM network that takes the output from both of the previous models and generate the next word in the code.
 
-### Split Data to Train and Eval
+### Split Data to Train and Eval:
 
 Split the Dataset to train and evaluation set. This command will split the data in two folders training set and eval set. By Default 85%-15%. 
 
