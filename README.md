@@ -55,4 +55,5 @@ python2 ./generate.py ../bin pix2code ../testimage.png ../code
 
 ### References:
 Paper: https://arxiv.org/abs/1705.07962
+
 Implementation: https://github.com/tonybeltramelli/pix2code
