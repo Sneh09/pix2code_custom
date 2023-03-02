@@ -56,7 +56,7 @@ python2 ./train.py ../data/D1/training_set ../bin
 
 ### Test the Model:
 
-Pretrained weight link for the given data: https://drive.google.com/drive/folders/1LiAYGAzHrDNQQLVsgly6OoFc5MWQrCjw?usp=share_link
+Pretrained weight link for the given data: https://drive.google.com/drive/folders/1dXk0YmhfqVEfBAe5VrXwxaVsy5mJPNPO?usp=share_link
 Download the complete folder "bin" and copy it in pix2code.
 ```
 mkdir code
